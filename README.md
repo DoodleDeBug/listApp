@@ -1,2 +1,6 @@
 # listApp
-Android/web app that lets you make lots of different lists
+
+*name is WIP lol
+*App lets you makes different kinds of lists, favourite them, share them etc...
+*making with flutter and coding using dart
+
