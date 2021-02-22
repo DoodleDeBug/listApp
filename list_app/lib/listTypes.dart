@@ -19,30 +19,57 @@ class _ListsState extends State<Lists> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            ElevatedButton(
-              onPressed: () {},
-              child: Text(
-                'Unordered List',
-                style: TextStyle(
-                    fontSize: 40.0
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                color: Colors.blue,
+                height: 100.0,
+                width: 350.0,
+                child: FlatButton(
+                  child: Text(
+                    'Unordered List',
+                    style: TextStyle(
+                      fontSize: 40.0,
+                      color: Colors.white,
+                    ),
+                  ),
+                  onPressed: () {},
                 ),
               ),
             ),
-            ElevatedButton(
-              onPressed: () {},
-              child: Text(
-                'Numbered List',
-                style: TextStyle(
-                    fontSize: 40.0
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                color: Colors.blue,
+                height: 100.0,
+                width: 350.0,
+                child: FlatButton(
+                  child: Text(
+                    'Numbered List',
+                    style: TextStyle(
+                      fontSize: 40.0,
+                      color: Colors.white,
+                    ),
+                  ),
+                  onPressed: () {},
                 ),
               ),
             ),
-            ElevatedButton(
-              onPressed: () {},
-              child: Text(
-                'Checklist',
-                style: TextStyle(
-                    fontSize: 40.0
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                color: Colors.blue,
+                height: 100.0,
+                width: 350.0,
+                child: FlatButton(
+                  child: Text(
+                    'Checklist',
+                    style: TextStyle(
+                      fontSize: 40.0,
+                      color: Colors.white,
+                    ),
+                  ),
+                  onPressed: () {},
                 ),
               ),
             ),
