@@ -4,12 +4,19 @@ void main() {
   runApp(MaterialApp(
     home: Scaffold(
       appBar: AppBar(
-        title: Text("EduApp"),
+        title: Text("ListApp"),
         centerTitle: true,
       ),
       body: Center(
-        child: Text("Welcome to EduApp"),
+        child: Text("Welcome"),
       ),
-    ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(
+          Icons.add,
+          color: Colors.grey,
+          ),
+        ),
+      ),
   ));
 }
