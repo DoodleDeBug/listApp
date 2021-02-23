@@ -18,10 +18,12 @@ class _HomeState extends State<Home> {
         title: Text(
           "ListApp",
           style: TextStyle(
-              fontSize: 40.0
+              fontSize: 40.0,
+              color: Colors.black54,
           ),
         ),
         centerTitle: true,
+        backgroundColor: Colors.grey[300],
       ),
       body: Column(
         children: [
@@ -39,7 +41,8 @@ class _HomeState extends State<Home> {
                     child: Text(
                       'All',
                       style: TextStyle(
-                          fontSize: 20.0
+                        fontSize: 20.0,
+                        color: Colors.black54,
                       ),
                     ),
                   ),
@@ -62,11 +65,14 @@ class _HomeState extends State<Home> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        backgroundColor: Colors.grey[300],
+        onPressed: () {
+          Navigator.pushNamed(context, '/choose');
+        },
         child: Icon(
           Icons.add,
-          color: Colors.white,
-          size: 35.0,
+          color: Colors.black54,
+          size: 40.0,
         ),
       ),
     );

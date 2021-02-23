@@ -15,6 +15,17 @@ class _ListsState extends State<Lists> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text(
+        "List Type",
+        style: TextStyle(
+          fontSize: 40.0,
+          color: Colors.black54,
+        ),
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.grey[300],
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -22,7 +33,7 @@ class _ListsState extends State<Lists> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                color: Colors.blue,
+                color: Colors.grey[300],
                 height: 100.0,
                 width: 350.0,
                 child: FlatButton(
@@ -30,7 +41,7 @@ class _ListsState extends State<Lists> {
                     'Unordered List',
                     style: TextStyle(
                       fontSize: 40.0,
-                      color: Colors.white,
+                      color: Colors.black54,
                     ),
                   ),
                   onPressed: () {},
@@ -40,7 +51,7 @@ class _ListsState extends State<Lists> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                color: Colors.blue,
+                color: Colors.grey[300],
                 height: 100.0,
                 width: 350.0,
                 child: FlatButton(
@@ -48,7 +59,7 @@ class _ListsState extends State<Lists> {
                     'Numbered List',
                     style: TextStyle(
                       fontSize: 40.0,
-                      color: Colors.white,
+                      color: Colors.black54,
                     ),
                   ),
                   onPressed: () {},
@@ -58,7 +69,7 @@ class _ListsState extends State<Lists> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                color: Colors.blue,
+                color: Colors.grey[300],
                 height: 100.0,
                 width: 350.0,
                 child: FlatButton(
@@ -66,7 +77,7 @@ class _ListsState extends State<Lists> {
                     'Checklist',
                     style: TextStyle(
                       fontSize: 40.0,
-                      color: Colors.white,
+                      color: Colors.black54,
                     ),
                   ),
                   onPressed: () {},
