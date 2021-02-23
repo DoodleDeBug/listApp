@@ -65,6 +65,7 @@ class _HomeState extends State<Home> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
+        tooltip: 'New List',
         backgroundColor: Colors.grey[300],
         onPressed: () {
           Navigator.pushNamed(context, '/choose');
